@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "59c3fe81-70fa-4e8e-983a-e13139e7b6d1",
+    "name": "Local",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-12-02T06:16:03.779Z",
+    "modified": "2022-12-02T06:16:03.779Z",
+    "data": [
+      {
+        "name": "URL",
+        "value": "http://localhost:3000/api/v1/"
+      }
+    ]
+  },
+  {
+    "_id": "92056609-978e-41ef-90a8-d3908e872661",
+    "name": "Production",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-12-02T06:16:53.683Z",
+    "modified": "2022-12-02T06:16:53.683Z",
+    "data": [
+      {
+        "name": "URL",
+        "value": "https://rukun.com/api/v1"
+      },
+      {
+        "name": "token",
+        "value": ""
+      }
+    ]
+  }
+]

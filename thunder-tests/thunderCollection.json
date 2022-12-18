@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "c7ffe866-c96d-4726-8fa4-8697ba48e2a1",
+    "colName": "Ecommerce",
+    "created": "2022-12-02T06:15:52.134Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "62bd68bf-2a2f-424c-b6ad-2b7fdafa2364",
+        "name": "Banners",
+        "containerId": "",
+        "created": "2022-12-13T12:24:45.998Z",
+        "sortNum": 80000
+      },
+      {
+        "_id": "e3d7bcd4-e7ca-4664-ab0d-be4cbf21fe89",
+        "name": "Users",
+        "containerId": "",
+        "created": "2022-12-14T10:48:26.699Z",
+        "sortNum": 90000
+      },
+      {
+        "_id": "65f3f685-3a25-4804-b5c0-263f6ff161e9",
+        "name": "Categories",
+        "containerId": "",
+        "created": "2022-12-15T07:35:43.761Z",
+        "sortNum": 100000
+      },
+      {
+        "_id": "5f680611-7230-4f26-b0cb-2f850587481f",
+        "name": "Products",
+        "containerId": "",
+        "created": "2022-12-15T07:59:20.625Z",
+        "sortNum": 110000
+      },
+      {
+        "_id": "826595ca-d803-4136-9943-7c88cc611ebd",
+        "name": "Orders",
+        "containerId": "",
+        "created": "2022-12-17T10:33:54.159Z",
+        "sortNum": 120000
+      }
+    ],
+    "settings": {
+      "headers": [],
+      "auth": {
+        "type": "bearer",
+        "bearer": "{{token}}"
+      },
+      "tests": [],
+      "options": {
+        "baseUrl": "{{URL}}"
+      },
+      "envId": "59c3fe81-70fa-4e8e-983a-e13139e7b6d1"
+    }
+  }
+]
