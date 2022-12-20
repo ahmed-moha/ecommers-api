@@ -6,7 +6,7 @@ exports.uploadFile = async (req, res, next) => {
   try {
     let data = [];
     if (req.files === undefined || req.files === null) {
-      req.images = "no-Image";
+      req.images = "https://i.pravatar.cc/150?u=fake@pravatar.com";
       next();
     } else {
       let index = 0;
@@ -50,7 +50,7 @@ exports.uploadFile = async (req, res, next) => {
 
 exports.deleteFile = (fileName) => {
   try {
-    if (fileName === undefined || fileName == "no-Image") {
+    if (fileName === undefined || fileName == "https://i.pravatar.cc/150?u=fake@pravatar.com") {
       throw "There is no file to delete";
     } else {
       if (fileName instanceof Array && fileName.length > 1) {

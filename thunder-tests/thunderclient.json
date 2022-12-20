@@ -27,7 +27,7 @@
     "method": "POST",
     "sortNum": 90000,
     "created": "2022-12-13T12:25:14.277Z",
-    "modified": "2022-12-13T13:16:24.990Z",
+    "modified": "2022-12-20T10:58:48.164Z",
     "headers": [
       {
         "name": "Content-Type",
@@ -37,24 +37,9 @@
     ],
     "params": [],
     "body": {
-      "type": "formdata",
-      "raw": "",
-      "form": [
-        {
-          "name": "title",
-          "value": "MY BANNER"
-        },
-        {
-          "name": "description",
-          "value": "waraa cali hasan"
-        }
-      ],
-      "files": [
-        {
-          "name": "file",
-          "value": "c:\\Users\\PC\\Downloads\\coffee-171653_1920.jpg"
-        }
-      ]
+      "type": "json",
+      "raw": "{\n  \n  \"title\": \"Cunto share ah 🔥\",\n  \"description\": \"Best food so far in east africa\",\n  \"photos\": [\n    \"https://afar.brightspotcdn.com/dims4/default/3aa6f3c/2147483647/strip/true/crop/1440x720+0+0/resize/1440x720!/quality/90/?url=https%3A%2F%2Fafar-media-production-web.s3.amazonaws.com%2Fbrightspot%2F5f%2F8e%2F2d27f7aa47c58e210b626d30b59f%2Ffood-neighborhoods-01-lede-champys-chicken-chattanooga-new.jpg\"\n  ]\n}",
+      "form": []
     },
     "tests": []
   },
@@ -107,18 +92,42 @@
     "method": "POST",
     "sortNum": 140000,
     "created": "2022-12-14T10:48:59.417Z",
-    "modified": "2022-12-17T11:18:16.083Z",
+    "modified": "2022-12-19T10:39:26.750Z",
     "headers": [
       {
         "name": "Content-Type",
-        "value": "application/json"
+        "value": "application/octet-stream",
+        "isDisabled": true
       }
     ],
     "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n\n  \"username\":\"tiger\",\n  \"password\":\"tiger\",\n  \"email\":\"Ahmeddhaqan11@gmail.com\",\n  \"name\":\"Ahmed M. Abdulkadir\"\n  \n}",
-      "form": []
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "username",
+          "value": "ali"
+        },
+        {
+          "name": "email",
+          "value": "tiger@gmail.com"
+        },
+        {
+          "name": "password",
+          "value": "123456"
+        },
+        {
+          "name": "name",
+          "value": "Ahmed M. Abdulkadir"
+        }
+      ],
+      "files": [
+        {
+          "name": "file",
+          "value": "c:\\Users\\PC\\Downloads\\coffee-171653_1920.jpg"
+        }
+      ]
     },
     "tests": []
   },
@@ -173,12 +182,12 @@
     "method": "POST",
     "sortNum": 180000,
     "created": "2022-12-15T07:36:06.590Z",
-    "modified": "2022-12-15T07:39:05.877Z",
+    "modified": "2022-12-20T11:31:07.693Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\":\"Dharka Dumarka\"\n  \n}",
+      "raw": "{\n     \n      \"name\": \"Dharka Dumarka\",\n      \"desc\": \"no description at all\",\n      \"photo\":\"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15577328/2021/10/19/3f477c11-9550-4db8-b360-7621b5fddd9b1634625769534-Antheaa-Women-Dresses-7701634625767867-1.jpg\"\n     \n     \n    }",
       "form": []
     },
     "tests": []
@@ -286,12 +295,12 @@
     "method": "POST",
     "sortNum": 250000,
     "created": "2022-12-15T10:37:23.007Z",
-    "modified": "2022-12-17T11:20:08.337Z",
+    "modified": "2022-12-20T07:03:13.049Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"username\":\"tiger\",\n  \"password\":\"tiger\"\n}",
+      "raw": "{\n  \"username\":\"ahmed\",\n  \"password\":\"123456\"\n}",
       "form": []
     },
     "tests": []

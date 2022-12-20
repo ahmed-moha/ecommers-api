@@ -22,7 +22,11 @@ const UserSchema = mongoose.Schema(
       type: String,
       lowercase: true,
       unique: true,
-     
+    },
+    type: {
+      type: String,
+      enum: ["Normal", "Google", "Facebook"],
+      default: "Normal",
     },
     password: {
       type: String,
@@ -38,8 +42,6 @@ const UserSchema = mongoose.Schema(
     updatedAt: { type: Date, default: Date.now },
   },
   { versionKey: false, strict: false }
-
-  
 );
 
-module.exports=mongoose.model("user",UserSchema)
+module.exports = mongoose.model("user", UserSchema);
